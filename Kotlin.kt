@@ -1,9 +1,10 @@
 fun main() {
     // variable declared with val are treated as constants
     // their values can not be changed later
-    val age = 5
+    val age = 11
     var ageInDays = age * 365
-    println("Happy Birthday, Rover!")
+    val name = "Ayomikun"
+    println("Happy Birthday, ${name}!")
     
     // Let's print a cake!
     println("   ,,,,,   ")
@@ -16,6 +17,6 @@ fun main() {
     // This prints an empty line.
     println("")
 
-    println("You are already ${age} years that is ${ageInDays} days old!")
+    println("${name}, You are already ${age} years that is ${ageInDays} days old!")
     println("${age} is the very best age to celebrate!")
 }
