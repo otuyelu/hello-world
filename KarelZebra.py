@@ -21,6 +21,7 @@ def main():
 def paint():
     """
     Paint two line of beepers to make a zebra stripe
+    """
     paint_up()
     paint_down()
     
